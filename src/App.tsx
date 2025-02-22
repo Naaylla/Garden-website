@@ -1,11 +1,12 @@
-import './styles.css'
+import '../styles.css'
+import Header from "./components/Layout/Header/index"
 
 function App() {
 
   return (
-    <>
-     hello world
-    </>
+    <div className='w-screen h-screen bg-white'>
+      <Header></Header>
+    </div>
   )
 }
 
