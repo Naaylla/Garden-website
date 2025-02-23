@@ -1,15 +1,13 @@
-import '../styles.css'
-import Header from "./components/Layout/Header/index"
-import Hero from "./components/Hero/index"
+import "../styles.css";
+import Hero from "./components/Hero/index";
+import Layout from "./components/Layout";
 
 function App() {
-
   return (
-    <div className='w-screen h-screen bg-white relative'>
-      <Header></Header>
-      <Hero></Hero>
-    </div>
-  )
+    <Layout>
+      <Hero />
+    </Layout>
+  );
 }
 
-export default App
+export default App;
