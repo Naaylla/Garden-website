@@ -3,11 +3,11 @@ import { Search } from 'lucide-react';
 
 export default function Header() {
     return (
-        <div className="w-full bg-transparent sticky top-0">
+        <div className="w-full bg-transparent absolute top-0 z-10">
             <div className="container mx-auto px-8 py-16 flex flex-row justify-between">
                 <div className="flex flex-row space-x-2 items-center">
                     <img src={logo} alt="GardenPokhara" width={34} height={34}/>
-                    <p className="font-montserrat"><strong>Garden</strong>Pokhara</p>
+                    <p className="font-montserrat text-xs"><strong>Garden</strong>Pokhara</p>
                 </div>
                 <div className="flex flex-row space-x-6 justify-center items-center">
                     <Search height={30} width={30} className="cursor-pointer"/>
